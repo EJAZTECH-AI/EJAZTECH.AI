@@ -238,75 +238,92 @@
     </section>
 
     <!-- Achievements Section -->
-    <section class="achievements" id="achievements">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Our Achievements</h2>
-                <p class="section-subtitle">Milestones and recognition in AI innovation</p>
+<section class="achievements" id="achievements">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Our Achievements</h2>
+            <p class="section-subtitle">Milestones and recognition in AI innovation</p>
+        </div>
+        
+        <div class="achievements-container">
+            <div class="achievements-scroll" id="achievements-scroll">
+                
+                <div class="card achievement-card">
+                    <div class="achievement-image">
+                        <img src="assets/achievement1.jpg" alt="Best Poster Award" />
+                    </div>
+                    <div class="card__body">
+                        <h3>Best Poster Award 2025</h3>
+                        <p class="achievement-description">Recognition for outstanding contribution to African AI development and community impact.</p>
+                        <span class="achievement-date">October 2025</span>
+                    </div>
+                </div>
+
+                <div class="card achievement-card">
+                    <div class="achievement-image">
+                        <img src="assets/achievement2.jpg" alt="100+ Students Trained" />
+                    </div>
+                    <div class="card__body">
+                        <h3>100+ Students Trained</h3>
+                        <p class="achievement-description">Successfully educated over 100 young Africans in AI and machine learning through our mentorship program.</p>
+                        <span class="achievement-date">Ongoing</span>
+                    </div>
+                </div>
+
+                <div class="card achievement-card">
+                    <div class="achievement-image">
+                        <img src="assets/achievement3.jpg" alt="Deep Learning Indaba AI Community Challenge" />
+                    </div>
+                    <div class="card__body">
+                        <h3>Deep Learning Indaba AI Community Challenge</h3>
+                        <p class="achievement-description">Ranked top 5 at Deep Learning Indaba AI Community Challenges, recognized as a contributor to AI impact locally across Africa.</p>
+                        <span class="achievement-date">2025</span>
+                    </div>
+                </div>
+
+                <div class="card achievement-card">
+                    <div class="achievement-image">
+                        <img src="assets/achievement4.jpg" alt="Young Engineer AI Innovation Challenge" />
+                    </div>
+                    <div class="card__body">
+                        <h3>Young Engineer AI Innovation Challenge</h3>
+                        <p class="achievement-description">Ranked 2nd position at Young Engineer AI Innovation Challenges applying AI locally to Smart City and public infrastructure.</p>
+                        <span class="achievement-date">2025</span>
+                    </div>
+                </div>
+                 <!-- Placeholder for future achievements -->
+                    <div class="card achievement-card achievement-placeholder">
+                        <div class="achievement-image">
+                            <div class="image-placeholder">
+                                <svg width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="card__body">
+                            <h3>More Achievements Coming</h3>
+                            <p class="achievement-description">We're constantly working on new innovations and achievements. Stay tuned for updates!</p>
+                            <span class="achievement-date">Soon</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Navigation buttons -->
+                <button class="achievements-nav achievements-nav--left" id="achievements-prev" aria-label="Previous achievements">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                    </svg>
+                </button>
+                <button class="achievements-nav achievements-nav--right" id="achievements-next" aria-label="Next achievements">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+                    </svg>
+                </button>
+
             </div>
-            
-            <div class="achievements-container">
-                <div class="achievements-scroll" id="achievements-scroll">
-                    <!-- Placeholder achievements - these will be dynamically populated -->
-                    <div class="card achievement-card">
-                        <div class="achievement-image">
-                            <div class="image-placeholder">
-                                <svg width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <h3>Best Poster Award 2025</h3>
-                            <p class="achievement-description">Recognition for outstanding contribution to African AI development and community impact.</p>
-                            <span class="achievement-date">October 2025</span>
-                        </div>
-                    </div>
-
-                    <div class="card achievement-card">
-                        <div class="achievement-image">
-                            <div class="achievement-image">
-                                <img src="assets/achievement1.jpg" alt="Achievement Image" />
-                             </div>       
-                        
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <h3>100+ Students Trained</h3>
-                            <p class="achievement-description">Successfully educated over 100 young Africans in AI and machine learning through our mentorship program.</p>
-                            <span class="achievement-date">Ongoing</span>
-                        </div>
-                    </div>
-
-                    <div class="card achievement-card">
-                        <div class="achievement-image">
-                            <div class="image-placeholder">
-                                <svg width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <h3>Deep learning Indaba AI Community Challenge</h3>
-                            <p class="achievement-description">Ranked top 5 at Deep learning Indaba AI Community challenges, Recognize as contributor to AI impact locally across  Africa</p>
-                            <span class="achievement-date">2025</span>
-                        </div>
-                    </div>
-
-                    <div class="card achievement-card">
-                        <div class="achievement-image">
-                            <div class="image-placeholder">
-                                <svg width="48" height="48" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                                </svg>
-                            </div>
-                        </div>
-                        <div class="card__body">
-                            <h3>Young Engineer AI innovation Challenge</h3>
-                            <p class="achievement-description"> Ranked 2nd Position at Young Engineer AI innovation Challenges  in   Applying AI locally to the Smart city and Publlic infrastructure </p>
-                            <span class="achievement-date">2025</span>
-                        </div>
-                    </div>
+        </div>
+    </div>
+</section>
 
                     <!-- Placeholder for future achievements -->
                     <div class="card achievement-card achievement-placeholder">
