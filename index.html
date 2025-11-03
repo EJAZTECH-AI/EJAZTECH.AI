@@ -613,75 +613,80 @@
                     </div>
                 </div>
                 
-                <form action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="0c951254-ae2c-4a0f-82d0-528fde9df123" />
-  
-  <div class="form-group">
-    <label for="name" class="form-label">Name</label>
-    <input type="text" id="name" name="name" class="form-control" required />
-  </div>
-  
-  <div class="form-group">
-    <label for="email" class="form-label">Email</label>
-    <input type="email" id="email" name="email" class="form-control" required />
-  </div>
-  
-  <div class="form-group">
-    <label for="message" class="form-label">Message</label>
-    <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
-  </div>
-  
-  <button type="submit" class="btn btn-primary">Submit</button>
+                <form class="contact-form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="0c951254-ae2c-4a0f-82d0-528fde9df123" />
+
+    <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" name="name" class="form-control" required />
+    </div>
+    
+    <div class="form-group">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" name="email" class="form-control" required />
+    </div>
+    
+    <div class="form-group">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" id="subject" name="subject" class="form-control" required />
+    </div>
+    
+    <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
 </form>
 
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>EJAZTECH.AI</h3>
-                    <p>Driving AI innovation across Africa through education and technology. We specialize in collecting local datasets to build innovative AI-driven solutions that automate tasks and empower individuals and organizations.</p>
-                </div>
-                
-                <div class="footer-links">
-                    <div class="footer-section">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#team">Our Team</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-section">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="#services">AI Development</a></li>
-                            <li><a href="#services">Data Collection</a></li>
-                            <li><a href="#services">Consultation</a></li>
-                            <li><a href="#services">Education</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-section">
-                        <h4>Resources</h4>
-                        <ul>
-                            <li><a href="#datasets">Open Datasets</a></li>
-                            <li><a href="#research">Research Papers</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#achievements">Achievements</a></li>
-                        </ul>
-                    </div>
-                </div>
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>EJAZTECH.AI</h3>
+                <p>Driving AI innovation across Africa through education and technology. We specialize in collecting local datasets to build innovative AI-driven solutions that automate tasks and empower individuals and organizations.</p>
             </div>
             
-            <div class="footer-bottom">
-                <p>&copy; 2025 EJAZTECH.AI. All rights reserved.</p>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">AI Development</a></li>
+                        <li><a href="#services">Data Collection</a></li>
+                        <li><a href="#services">Consultation</a></li>
+                        <li><a href="#services">Education</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#datasets">Open Datasets</a></li>
+                        <li><a href="#research">Research Papers</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </footer>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 EJAZTECH.AI. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
 
-    <script src="app.js"></script>
+<script src="app.js"></script>
+
 </body>
 </html>
