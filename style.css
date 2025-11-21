@@ -1807,6 +1807,38 @@ select.form-control {
   line-height: 1.6;
 }
 
+/* Fix image size and prevent zooming */
+.outreach-images {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+}
+
+.outreach-images img {
+    width: 180px;         /* FIXED width for all images */
+    height: 130px;        /* FIXED height for all images */
+    object-fit: cover;    /* Keeps images clean without stretching */
+    border-radius: 8px;
+    flex-shrink: 0;       /* Prevents images from shrinking when scrolling */
+}
+
+/* Optional: hide ugly scrollbar on modern browsers */
+.outreach-images::-webkit-scrollbar {
+    height: 6px;
+}
+
+.outreach-images::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+
+.outreach-images::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
 /* Achievements Section */
 .achievements {
   padding: 80px 0;
