@@ -1807,6 +1807,105 @@ select.form-control {
   line-height: 1.6;
 }
 
+/* Outreach Section Styling */
+.outreach {
+    padding: 60px 0;
+}
+
+.outreach-container {
+    position: relative;
+    margin-top: 40px;
+}
+
+.outreach-scroll {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 20px;
+}
+
+.outreach-card {
+    flex: 0 0 auto;
+    width: 320px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.outreach-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Images inside the card */
+.outreach-images {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 10px;
+    background: #f7f7f7;
+}
+
+.outreach-images img {
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+/* Card content */
+.outreach-card .card__body {
+    padding: 16px;
+}
+
+.outreach-card h3 {
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.outreach-description {
+    font-size: 14px;
+    color: #464646;
+    margin-bottom: 12px;
+    line-height: 1.4em;
+}
+
+.outreach-date {
+    font-size: 12px;
+    color: #888;
+}
+
+/* Placeholder card style */
+.outreach-placeholder .outreach-images {
+    background: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+}
+
+.outreach-placeholder svg {
+    opacity: 0.5;
+}
+
+/* Scrollbar style (optional) */
+.outreach-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.outreach-scroll::-webkit-scrollbar-thumb {
+    background: #cfcfcf;
+    border-radius: 10px;
+}
+
+.outreach-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+
+
 /* Achievements Section */
 .achievements {
   padding: 80px 0;
